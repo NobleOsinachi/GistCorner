@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Worded", "..\..\..\Documents\Visual Studio 2015\Projects\Worded\", "{58B52EBD-F82D-49FF-A312-7DAA915D199F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54904"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Documents\Visual Studio 2015\Projects\Worded\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54904\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54904"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\Documents\Visual Studio 2015\Projects\Worded\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54904\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54904"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58B52EBD-F82D-49FF-A312-7DAA915D199F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B52EBD-F82D-49FF-A312-7DAA915D199F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0524132-206F-49B4-8CA0-C8A2366A2115}
+	EndGlobalSection
+EndGlobal
