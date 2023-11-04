@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Author from "./Author";
 
 const Slide = () => {
   // const res = await fetch("/api/category");
@@ -17,7 +18,7 @@ const Slide = () => {
           />
         </Link>
       </div>
-      <div className="info">
+      <div className="info flex flex-col justify-center">
         <div className="category">
           <Link className="text-orange-600 hover:text-orange-800" href={"#"}>
             Business, Travel
@@ -28,8 +29,21 @@ const Slide = () => {
             {/* ┬ ↗ */}
           </Link>
         </div>
-        <div className="title"></div>
-        <div className="description"></div>
+        <div className="title">
+          <Link
+            href={""}
+            className="text-3xl md:text-6xl font-bold text-gray-800  hover:text-gray-600 py-3"
+          >
+            Just In: World Population Crosses 8 Billion Mark
+          </Link>
+        </div>
+        <p className="description text-gray-500 py-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+          voluptatum voluptatibus provident recusandae nostrum omnis! Optio ex
+          iusto aspernatur illo culpa.
+        </p>
+
+        <Author></Author>
       </div>
     </div>
   );
