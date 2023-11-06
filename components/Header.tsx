@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ImFacebook, ImYoutube, ImTwitter, ImInstagram } from "react-icons/im";
+import SocialMedia from "./SocialMedia";
 
 const Header = () => {
   return (
@@ -20,18 +21,7 @@ const Header = () => {
           </div>
           <div className="w-96 order-3 flex justify-center">
             <div className="flex gap-6">
-              <Link href={"https://fb.me/noblechukwukere5"}>
-                <ImFacebook color="#888888" />
-              </Link>
-              <Link href={"https://instagram.com/NobleOsinachi"}>
-                <ImInstagram color="#888888" />
-              </Link>
-              <Link href={"https://twitter.com/NobleOsinachi"}>
-                <ImTwitter color="#888888" />
-              </Link>
-              <Link href={"https://youtube.com/@NobleOsinachi"}>
-                <ImYoutube color="#888888" />
-              </Link>
+              <SocialMedia></SocialMedia>
             </div>
           </div>
         </div>

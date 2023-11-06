@@ -1,21 +1,23 @@
 import Image from "next/image";
 import Link from "next/link";
 import Author from "./Author";
-const Post = () => {
+
+const CategoryPost = () => {
   return (
-    <div className="item">
-      <div className="images">
+    <div className="flex gap-5">
+      <div className="image flex flex-col justify-start">
         <Link href={"#"}>
           <Image
-            src="/images/image-1.png"
+            src="/images/300x250.png"
             alt={""}
             className="rounded"
-            width={"500"}
-            height={"350"}
+            width={"300"}
+            height={"250"}
           />
         </Link>
       </div>
-      <div className="info flex flex-col justify-center py-4">
+
+      <div className="info flex flex-col justify-center">
         <div className="category">
           <Link className="text-orange-600 hover:text-orange-800" href={"#"}>
             Business, Travel
@@ -26,20 +28,14 @@ const Post = () => {
             {/* ┬ ↗ */}
           </Link>
         </div>
-
         <div className="title">
           <Link
             href={""}
-            className="text-xl font-bold text-gray-800 hover:text-gray-600 py-3"
+            className="text-xl font-bold text-gray-800  hover:text-gray-600 py-3"
           >
             Just In: World Population Crosses 8 Billion Mark
           </Link>
         </div>
-        <p className="description text-gray-500 py-3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-          voluptatum voluptatibus provident recusandae nostrum omnis! Optio ex
-          iusto aspernatur illo culpa.
-        </p>
 
         <Author></Author>
       </div>
@@ -47,4 +43,4 @@ const Post = () => {
   );
 };
 
-export default Post;
+export default CategoryPost;

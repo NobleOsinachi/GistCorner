@@ -1,18 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import Author from "./Author";
-const Post = () => {
+const PopularPost = () => {
   return (
-    <div className="item">
+    <div className="grid">
       <div className="images">
         <Link href={"#"}>
-          <Image
-            src="/images/image-1.png"
-            alt={""}
-            className="rounded"
-            width={"500"}
-            height={"350"}
-          />
+          <Image src="/images/image-1.png" alt={""} width={600} height={400} />
         </Link>
       </div>
       <div className="info flex flex-col justify-center py-4">
@@ -30,7 +24,7 @@ const Post = () => {
         <div className="title">
           <Link
             href={""}
-            className="text-xl font-bold text-gray-800 hover:text-gray-600 py-3"
+            className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-gray-600 py-3"
           >
             Just In: World Population Crosses 8 Billion Mark
           </Link>
@@ -47,4 +41,4 @@ const Post = () => {
   );
 };
 
-export default Post;
+export default PopularPost;
