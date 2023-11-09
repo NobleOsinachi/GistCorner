@@ -1,15 +1,16 @@
-const Posts = () => {
+import Author from "@/components/Author";
+
+interface PostByIdProps {
+  params: { id: string };
+  searchParams: [{ name: "" }];
+}
+
+const PostById = ({ params, searchParams }: PostByIdProps) => {
   return (
-    <h1>
-      hellso wlwl
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
-        consequuntur nisi quisquam laboriosam, facere saepe sed enim, odio
-        commodi dolor exercitationem! Vitae molestiae minus labore ex earum quae
-        nam ipsum.
-      </div>
-    </h1>
+    <section className="container mx-auto md:px-2 py-16 w-1/2">
+      <div className="flex justify-center">LIST OF POSTS DESC ORDER</div>
+    </section>
   );
 };
 
-export default Posts;
+export default PostById;
