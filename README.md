@@ -5,6 +5,7 @@ Welcome to GistCorner Blog, a platform for sharing insights and discussions on v
 ### Live Preview
 
 Check out our website's live preview at [GistCorner Blog](https://gistcorner.vercel.app/).
+[![Live Website ](screenshot.png)](https://gistcorner.vercel.app/)
 
 ### Rebranding
 
