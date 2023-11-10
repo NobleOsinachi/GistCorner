@@ -20,7 +20,7 @@ const Slide = () => {
           </Link>
           {" — "}
           <Link className="text-gray-800 hover:text-gray-600" href={"#"}>
-            July 30, 2023
+          April 28, 2023
             {/* ┬ ↗ */}
           </Link>
         </div>
@@ -29,13 +29,21 @@ const Slide = () => {
             href={""}
             className="text-3xl md:text-6xl font-bold text-gray-800  hover:text-gray-600 py-3"
           >
-            Just In: World Population Crosses 8 Billion Mark
+            Preserving Our Natural Heritage
           </Link>
         </div>
         <p className="description text-gray-500 py-3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-          voluptatum voluptatibus provident recusandae nostrum omnis! Optio ex
-          iusto aspernatur illo culpa.
+          As we marvel at the wonders of nature, it becomes our responsibility
+          to protect and preserve it. Conservation efforts, sustainable
+          practices, and a collective commitment to environmental stewardship
+          are essential. By safeguarding our natural heritage, we ensure that
+          future generations can continue to find inspiration and solace in the
+          untouched beauty of the world around us. In conclusion, the beauty of
+          nature is a timeless source of inspiration and tranquility. It reminds
+          us to slow down, appreciate the world we live in, and strive to be
+          responsible custodians of the environment. So, the next time you find
+          yourself amidst nature's grandeur, take a moment to soak it in—the
+          beauty that surrounds us is a gift that keeps on giving.
         </p>
 
         <Author></Author>

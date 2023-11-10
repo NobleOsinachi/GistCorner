@@ -10,6 +10,7 @@ const RelatedPost = () => {
           <Image
             src="/images/img1.png"
             alt={""}
+            // layout="intrinsic"
             className="rounded"
             width={"300"}
             height={"200"}
@@ -24,7 +25,7 @@ const RelatedPost = () => {
           </Link>
           {" — "}
           <Link className="text-gray-800 hover:text-gray-600" href={"#"}>
-            July 30, 2023
+            August 2, 2023
             {/* ┬ ↗ */}
           </Link>
         </div>
@@ -33,7 +34,7 @@ const RelatedPost = () => {
             href={""}
             className="text-xl font-bold text-gray-800  hover:text-gray-600 py-3"
           >
-            Just In: World Population Crosses 8 Billion Mark
+            The Green Revolution: A Journey into Sustainable Agriculture
           </Link>
         </div>
 

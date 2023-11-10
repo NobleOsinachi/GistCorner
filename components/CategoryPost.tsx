@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Author from "./Author";
+import Tag from "./Tag";
 
 const CategoryPost = () => {
   return (
@@ -18,9 +19,13 @@ const CategoryPost = () => {
       </div>
 
       <div className="info flex flex-col justify-center">
-        <div className="category">
-          <Link className="text-orange-600 hover:text-orange-800" href={"#"}>
+        <div className="category flex">
+          <Link
+            className="text-orange-600 hover:text-orange-800 flex"
+            href={"#"}
+          >
             Business, Travel
+            {/* <Tag>Business</Tag>            <Tag>Travel</Tag> */}
           </Link>
           {" — "}
           <Link className="text-gray-800 hover:text-gray-600" href={"#"}>
@@ -33,7 +38,7 @@ const CategoryPost = () => {
             href={""}
             className="text-xl font-bold text-gray-800  hover:text-gray-600 py-3"
           >
-            Just In: World Population Crosses 8 Billion Mark
+            Navigating Global Markets: Business Insights and Travel Adventures
           </Link>
         </div>
 

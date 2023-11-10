@@ -22,7 +22,7 @@ const Post = () => {
           </Link>
           {" — "}
           <Link className="text-gray-800 hover:text-gray-600" href={"#"}>
-            July 30, 2023
+          July 27, 2023
             {/* ┬ ↗ */}
           </Link>
         </div>
@@ -32,13 +32,16 @@ const Post = () => {
             href={""}
             className="text-xl font-bold text-gray-800 hover:text-gray-600 py-3"
           >
-            Just In: World Population Crosses 8 Billion Mark
+            The Dance of Seasons
           </Link>
         </div>
         <p className="description text-gray-500 py-3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-          voluptatum voluptatibus provident recusandae nostrum omnis! Optio ex
-          iusto aspernatur illo culpa.
+          One of nature's most enchanting displays is the changing of seasons.
+          The blossoming of flowers in spring, the warmth of summer, the vibrant
+          hues of autumn, and the quiet beauty of winter snowfall—all contribute
+          to the ever-turning wheel of time. Each season brings its own unique
+          charm, teaching us about the cyclical nature of life and the
+          inevitability of change.
         </p>
 
         <Author></Author>

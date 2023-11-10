@@ -16,7 +16,7 @@ const PopularPost = () => {
           </Link>
           {" — "}
           <Link className="text-gray-800 hover:text-gray-600" href={"#"}>
-            July 30, 2023
+          June 18, 2023
             {/* ┬ ↗ */}
           </Link>
         </div>
@@ -26,13 +26,16 @@ const PopularPost = () => {
             href={""}
             className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-gray-600 py-3"
           >
-            Just In: World Population Crosses 8 Billion Mark
+            Finding Solace in Green Spaces
           </Link>
         </div>
         <p className="description text-gray-500 py-3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-          voluptatum voluptatibus provident recusandae nostrum omnis! Optio ex
-          iusto aspernatur illo culpa.
+          Green spaces, whether vast forests or urban parks, provide a refuge
+          from the hustle and bustle of daily life. They offer a sanctuary for
+          reflection, exercise, or a simple escape from the demands of the
+          modern world. The vibrant colors of flowers, the gentle sway of trees,
+          and the calming presence of water create an oasis that rejuvenates
+          both body and mind.
         </p>
 
         <Author></Author>
