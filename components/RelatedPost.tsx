@@ -2,17 +2,21 @@ import Image from "next/image";
 import Link from "next/link";
 import Author from "./Author";
 
-const Slide = () => {
-  // const res = await fetch("/api/category");
-  // const category: Array<string> = await res.json();
-
+const RelatedPost = () => {
   return (
-    <div className="grid md:grid-cols-2 gap-2">
-      <div className="image px-5">
+    <div className="flex gap-5">
+      <div className="image flex flex-col justify-start">
         <Link href={"#"}>
-          <Image src="/images/img1.png" alt={""} width={"600"} height={"600"} />
+          <Image
+            src="/images/img1.png"
+            alt={""}
+            className="rounded"
+            width={"300"}
+            height={"200"}
+          />
         </Link>
       </div>
+
       <div className="info flex flex-col justify-center">
         <div className="category">
           <Link className="text-orange-600 hover:text-orange-800" href={"#"}>
@@ -27,16 +31,11 @@ const Slide = () => {
         <div className="title">
           <Link
             href={""}
-            className="text-3xl md:text-6xl font-bold text-gray-800  hover:text-gray-600 py-3"
+            className="text-xl font-bold text-gray-800  hover:text-gray-600 py-3"
           >
             Just In: World Population Crosses 8 Billion Mark
           </Link>
         </div>
-        <p className="description text-gray-500 py-3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-          voluptatum voluptatibus provident recusandae nostrum omnis! Optio ex
-          iusto aspernatur illo culpa.
-        </p>
 
         <Author></Author>
       </div>
@@ -44,4 +43,4 @@ const Slide = () => {
   );
 };
 
-export default Slide;
+export default RelatedPost;

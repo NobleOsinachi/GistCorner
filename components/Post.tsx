@@ -7,7 +7,7 @@ const Post = () => {
       <div className="images">
         <Link href={"#"}>
           <Image
-            src="/images/image-1.png"
+            src="/images/img1.png"
             alt={""}
             className="rounded"
             width={"500"}

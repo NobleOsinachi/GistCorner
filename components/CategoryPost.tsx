@@ -8,7 +8,7 @@ const CategoryPost = () => {
       <div className="image flex flex-col justify-start">
         <Link href={"#"}>
           <Image
-            src="/images/300x250.png"
+            src="/images/img1.png"
             alt={""}
             className="rounded"
             width={"300"}

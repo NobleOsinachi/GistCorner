@@ -16,7 +16,7 @@ const PostById = ({ params, searchParams }: PostByIdProps) => {
 
       <div className="post py-10">
         <h1 className="font-bold text-4xl text-center pb-5">
-          Nature's Wonder Plant
+          Nature&apos;s Wonder Plant
         </h1>
         <p className="subtitle text-gray-500  text-xl text-center">
           Lorem osam reprehenderit expedita cupiditate, rerum ea.
@@ -24,7 +24,7 @@ const PostById = ({ params, searchParams }: PostByIdProps) => {
 
         <div className="py-10">
           <Image
-            src={"/images/img1.jpg"}
+            src={"/images/img1.png"}
             alt={""}
             width={900}
             height={600}
@@ -38,9 +38,10 @@ const PostById = ({ params, searchParams }: PostByIdProps) => {
             symphony of coffee, baked goods, and conversations.
           </p>
           <p>
-            The cafe's patrons ranged from students engrossed in their textbooks
-            to artists seeking inspiration for their next masterpiece. As the
-            hours passed, stories unfurled like the steam rising from the mugs.
+            The cafe&apos;s patrons ranged from students engrossed in their
+            textbooks to artists seeking inspiration for their next masterpiece.
+            As the hours passed, stories unfurled like the steam rising from the
+            mugs.
           </p>
           <p>
             Laughter and whispered secrets danced in the air, creating a unique

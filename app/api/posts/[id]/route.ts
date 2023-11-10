@@ -9,7 +9,7 @@ interface Post {
 const allPosts: GiftType[] = [
   {
     id: 1,
-    imgUrl: "/img/rice.jpg",
+    imgUrl: "/img/rice.png",
     name: "Rice",
     currency: "$",
     amount: "6",
@@ -19,7 +19,7 @@ const allPosts: GiftType[] = [
   },
   {
     id: 2,
-    imgUrl: "/img/beans.jpg",
+    imgUrl: "/img/beans.png",
     name: "Beans",
     currency: "$",
     amount: "6",
@@ -29,7 +29,7 @@ const allPosts: GiftType[] = [
   },
   {
     id: 3,
-    imgUrl: "/img/cooking-oil.jpg",
+    imgUrl: "/img/cooking-oil.png",
     currency: "$",
     amount: "5",
     name: "Cooking Oil",
@@ -39,7 +39,7 @@ const allPosts: GiftType[] = [
   },
   {
     id: 4,
-    imgUrl: "/img/noodles.jpg",
+    imgUrl: "/img/noodles.png",
     currency: "$",
     amount: "6",
     name: "Noodles",
@@ -49,7 +49,7 @@ const allPosts: GiftType[] = [
   },
   {
     id: 5,
-    imgUrl: "/img/cereal.jpg",
+    imgUrl: "/img/cereal.png",
     currency: "$",
     amount: "3",
     name: "Cereals",
@@ -59,7 +59,7 @@ const allPosts: GiftType[] = [
   },
   {
     id: 6,
-    imgUrl: "/img/sweet-potato-and-yam.jpg",
+    imgUrl: "/img/sweet-potato-and-yam.png",
     currency: "$",
     amount: "2",
     name: "Sweet Potatoes and Yam",
@@ -69,7 +69,7 @@ const allPosts: GiftType[] = [
   },
   {
     id: 7,
-    imgUrl: "/img/dialy-products.jpg",
+    imgUrl: "/img/dialy-products.png",
     currency: "$",
     amount: "5",
     name: "Dialy Products",
@@ -79,7 +79,7 @@ const allPosts: GiftType[] = [
   },
   {
     id: 8,
-    imgUrl: "/img/seasoning.jpg",
+    imgUrl: "/img/seasoning.png",
     currency: "$",
     amount: "1",
     name: "Seasoning",
@@ -89,7 +89,7 @@ const allPosts: GiftType[] = [
   },
   {
     id: 9,
-    imgUrl: "/img/pasta.jpg",
+    imgUrl: "/img/pasta.png",
     currency: "$",
     amount: "1",
     name: "Pasta",
@@ -99,7 +99,7 @@ const allPosts: GiftType[] = [
   },
   {
     id: 10,
-    imgUrl: "/img/veggies.jpg",
+    imgUrl: "/img/veggies.png",
     currency: "$",
     amount: "2",
     name: "Veggies",
@@ -109,7 +109,7 @@ const allPosts: GiftType[] = [
   },
   {
     id: 11,
-    imgUrl: "/img/frozen-meat-and-fish.jpg",
+    imgUrl: "/img/frozen-meat-and-fish.png",
     currency: "$",
     amount: "4",
     name: "Frozen Meat and Fish",
@@ -119,7 +119,7 @@ const allPosts: GiftType[] = [
   },
   {
     id: 12,
-    imgUrl: "/img/soy.jpg",
+    imgUrl: "/img/soy.png",
     currency: "$",
     amount: "100",
     name: "Soy",
@@ -129,7 +129,7 @@ const allPosts: GiftType[] = [
   },
   {
     id: 13,
-    imgUrl: "/img/cow.jpg",
+    imgUrl: "/img/cow.png",
     currency: "$",
     amount: "100",
     name: "Cow",
@@ -139,7 +139,7 @@ const allPosts: GiftType[] = [
   },
   {
     id: 14,
-    imgUrl: "/img/canned-food.jpg",
+    imgUrl: "/img/canned-food.png",
     currency: "$",
     amount: "1",
     name: "Canned Food",
@@ -149,7 +149,7 @@ const allPosts: GiftType[] = [
   },
   {
     id: 15,
-    imgUrl: "/img/goat-and-chicken.jpg",
+    imgUrl: "/img/goat-and-chicken.png",
     currency: "$",
     amount: "72",
     name: "1 goat and 2 chickens",
@@ -159,7 +159,7 @@ const allPosts: GiftType[] = [
   },
   {
     id: 16,
-    imgUrl: "/img/flour.jpg",
+    imgUrl: "/img/flour.png",
     currency: "$",
     amount: "100",
     name: "Flour",

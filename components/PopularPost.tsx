@@ -6,7 +6,7 @@ const PopularPost = () => {
     <div className="grid">
       <div className="images">
         <Link href={"#"}>
-          <Image src="/images/image-1.png" alt={""} width={600} height={400} />
+          <Image src="/images/img1.png" alt={""} width={600} height={400} />
         </Link>
       </div>
       <div className="info flex flex-col justify-center py-4">
