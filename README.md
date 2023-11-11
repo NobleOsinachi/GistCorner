@@ -9,7 +9,7 @@ Check out our website's live preview at [GistCorner Blog](https://gistcorner.ver
 
 ### Rebranding
 
-We've recently undergone a rebranding process. Thanks to the amazing [ Daily Tuition Tutorial on YouTube](https://www.youtube.com/watch?v=1T3GF6endl8&ab_channel=DailyTuition), we were able to rebranded the website using Next JS 13 App Router and served blogs from serverless functions,following similar layout.
+We've recently undergone a rebranding process. Thanks to the amazing [ Daily Tuition Tutorial on YouTube](https://www.youtube.com/watch?v=1T3GF6endl8&ab_channel=DailyTuition), we were able to rebranded the website using Next JS 13 App Router and served blogs from serverless functions, following similar layout.
 
 ### GitHub Repository
 
