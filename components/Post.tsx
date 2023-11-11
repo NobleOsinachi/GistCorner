@@ -22,7 +22,7 @@ const Post = () => {
           </Link>
           {" — "}
           <Link className="text-gray-800 hover:text-gray-600" href={"#"}>
-          July 27, 2023
+            July 27, 2023
             {/* ┬ ↗ */}
           </Link>
         </div>
@@ -36,12 +36,12 @@ const Post = () => {
           </Link>
         </div>
         <p className="description text-gray-500 py-3">
-          One of nature's most enchanting displays is the changing of seasons.
-          The blossoming of flowers in spring, the warmth of summer, the vibrant
-          hues of autumn, and the quiet beauty of winter snowfall—all contribute
-          to the ever-turning wheel of time. Each season brings its own unique
-          charm, teaching us about the cyclical nature of life and the
-          inevitability of change.
+          One of nature&apos;s most enchanting displays is the changing of
+          seasons. The blossoming of flowers in spring, the warmth of summer,
+          the vibrant hues of autumn, and the quiet beauty of winter
+          snowfall—all contribute to the ever-turning wheel of time. Each season
+          brings its own unique charm, teaching us about the cyclical nature of
+          life and the inevitability of change.
         </p>
 
         <Author></Author>

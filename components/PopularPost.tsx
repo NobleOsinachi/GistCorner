@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Author from "./Author";
+import { getBaseUrl } from "./getBaseUrl";
 const PopularPost = () => {
   return (
     <div className="grid">
@@ -16,14 +17,14 @@ const PopularPost = () => {
           </Link>
           {" — "}
           <Link className="text-gray-800 hover:text-gray-600" href={"#"}>
-          June 18, 2023
+            June 18, 2023
             {/* ┬ ↗ */}
           </Link>
         </div>
 
         <div className="title">
           <Link
-            href={""}
+            href=""
             className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-gray-600 py-3"
           >
             Finding Solace in Green Spaces

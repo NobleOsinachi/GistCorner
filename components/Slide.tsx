@@ -20,7 +20,7 @@ const Slide = () => {
           </Link>
           {" — "}
           <Link className="text-gray-800 hover:text-gray-600" href={"#"}>
-          April 28, 2023
+            April 28, 2023
             {/* ┬ ↗ */}
           </Link>
         </div>
@@ -42,8 +42,8 @@ const Slide = () => {
           nature is a timeless source of inspiration and tranquility. It reminds
           us to slow down, appreciate the world we live in, and strive to be
           responsible custodians of the environment. So, the next time you find
-          yourself amidst nature's grandeur, take a moment to soak it in—the
-          beauty that surrounds us is a gift that keeps on giving.
+          yourself amidst nature&apos;s grandeur, take a moment to soak it
+          in—the beauty that surrounds us is a gift that keeps on giving.
         </p>
 
         <Author></Author>
