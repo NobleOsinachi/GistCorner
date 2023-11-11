@@ -1,4 +1,5 @@
-import { getBaseUrl } from "@/components/getBaseUrl";
+import getBaseUrl from "@/components/getBaseUrl";
+
 import { NextRequest, NextResponse } from "next/server";
 
 export const GET = async (req: NextRequest) => {
