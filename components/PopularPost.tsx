@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Author from "./Author";
-import { getBaseUrl } from "./getBaseUrl";
+
 const PopularPost = () => {
   return (
     <div className="grid">
