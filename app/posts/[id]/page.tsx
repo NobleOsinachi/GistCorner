@@ -84,14 +84,14 @@ const PostById = ({ params, searchParams }: PostByIdProps) => {
           </p>
 
           <p>
-            <strong>A Gift from Nature</strong> In conclusion, Nature&apos;s
-            Wonder Plant, Aloe vera, stands as a testament to the incredible
-            gifts that the natural world provides. Whether used for its healing
-            properties, nutritional benefits, or cosmetic applications, Aloe
-            vera continues to captivate and contribute to our well-being. As we
-            explore the diverse wonders of the plant kingdom, Aloe vera remains
-            a shining example of nature&apos;s ability to nurture and sustain
-            life.
+            <strong>A Gift from Nature</strong>
+            In conclusion, Nature&apos;s Wonder Plant, Aloe vera, stands as a
+            testament to the incredible gifts that the natural world provides.
+            Whether used for its healing properties, nutritional benefits, or
+            cosmetic applications, Aloe vera continues to captivate and
+            contribute to our well-being. As we explore the diverse wonders of
+            the plant kingdom, Aloe vera remains a shining example of
+            nature&apos;s ability to nurture and sustain life.
           </p>
         </div>
       </div>
