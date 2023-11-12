@@ -39,7 +39,7 @@ const PopularPost = () => {
           both body and mind.
         </p>
 
-        <Author></Author>
+        {/* <Author></Author> */}
       </div>
     </div>
   );

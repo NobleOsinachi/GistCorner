@@ -42,7 +42,7 @@ const CategoryPost = () => {
           </Link>
         </div>
 
-        <Author></Author>
+        {/* <Author></Author> */}
       </div>
     </div>
   );

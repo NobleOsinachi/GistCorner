@@ -13,7 +13,7 @@ export default {
             published: "Jun 3,  2022",
             author: {
                 name: "Flying High",
-                img: "/images/author/author1.png",
+                img: "/images/authors/author1.png",
                 designation : "CEO and Founder"
             }
         },
@@ -30,7 +30,7 @@ export default {
             published: "Jun 5,  2022",
             author: {
                 name: "Flying High",
-                img: "/images/author/author1.png",
+                img: "/images/authors/author1.png",
                 designation : "CEO and Founder"
             }
         },
@@ -47,7 +47,7 @@ export default {
             published: "Jun 7,  2022",
             author: {
                 name: "Flying High",
-                img: "/images/author/author1.png",
+                img: "/images/authors/author1.png",
                 designation : "CEO and Founder"
             }
         },
@@ -64,7 +64,7 @@ export default {
             published: "Jun 10,  2022",
             author: {
                 name: "Flying High",
-                img: "/images/author/author1.png",
+                img: "/images/authors/author1.png",
                 designation : "CEO and Founder"
             }
         },
@@ -81,7 +81,7 @@ export default {
             published: "Jun 14,  2022",
             author: {
                 name: "Flying High",
-                img: "/images/author/author1.png",
+                img: "/images/authors/author1.png",
                 designation : "CEO and Founder"
             }
         }
@@ -114,7 +114,7 @@ export default {
             published: "Jun 3,  2022",
             author: {
                 name: "Flying High",
-                img: "/images/author/author1.png",
+                img: "/images/authors/author1.png",
                 designation : "CEO and Founder"
             }
         },
@@ -145,7 +145,7 @@ export default {
             published: "Jun 5,  2022",
             author: {
                 name: "Flying High",
-                img: "/images/author/author1.png",
+                img: "/images/authors/author1.png",
                 designation : "CEO and Founder"
             }
         },
@@ -176,7 +176,7 @@ export default {
             published: "Jun 7,  2022",
             author: {
                 name: "Flying High",
-                img: "/images/author/author1.png",
+                img: "/images/authors/author1.png",
                 designation : "CEO and Founder"
             }
         },
@@ -207,7 +207,7 @@ export default {
             published: "Jun 10,  2022",
             author: {
                 name: "Flying High",
-                img: "/images/author/author1.png",
+                img: "/images/authors/author1.png",
                 designation : "CEO and Founder"
             }
         },
@@ -238,7 +238,7 @@ export default {
             published: "Jun 14,  2022",
             author: {
                 name: "Flying High",
-                img: "/images/author/author1.png",
+                img: "/images/authors/author1.png",
                 designation : "CEO and Founder"
             }
         },
@@ -269,7 +269,7 @@ export default {
             published: "Jun 5,  2022",
             author: {
                 name: "Flying High",
-                img: "/images/author/author1.png",
+                img: "/images/authors/author1.png",
                 designation : "CEO and Founder"
             }
         },
@@ -288,7 +288,7 @@ export default {
             published: "Jun 3,  2022",
             author: {
                 name: "Flying High",
-                img: "/images/author/author1.png",
+                img: "/images/authors/author1.png",
                 designation : "CEO and Founder"
             }
         },
@@ -305,7 +305,7 @@ export default {
             published: "Jun 5,  2022",
             author: {
                 name: "Flying High",
-                img: "/images/author/author1.png",
+                img: "/images/authors/author1.png",
                 designation : "CEO and Founder"
             }
         },
@@ -322,7 +322,7 @@ export default {
             published: "Jun 7,  2022",
             author: {
                 name: "Flying High",
-                img: "/images/author/author1.png",
+                img: "/images/authors/author1.png",
                 designation : "CEO and Founder"
             }
         },
@@ -339,7 +339,7 @@ export default {
             published: "Jun 10,  2022",
             author: {
                 name: "Flying High",
-                img: "/images/author/author1.png",
+                img: "/images/authors/author1.png",
                 designation : "CEO and Founder"
             }
         },
@@ -356,7 +356,7 @@ export default {
             published: "Jun 14,  2022",
             author: {
                 name: "Flying High",
-                img: "/images/author/author1.png",
+                img: "/images/authors/author1.png",
                 designation : "CEO and Founder"
             }
         }

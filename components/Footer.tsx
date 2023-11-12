@@ -1,4 +1,3 @@
-"use client";
 import Newsletter from "./Newsletter";
 import SocialMedia from "./SocialMedia";
 

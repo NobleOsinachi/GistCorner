@@ -46,7 +46,7 @@ const Slide = () => {
           in—the beauty that surrounds us is a gift that keeps on giving.
         </p>
 
-        <Author></Author>
+        {/* <Author></Author> */}
       </div>
     </div>
   );

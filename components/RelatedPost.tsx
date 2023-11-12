@@ -38,7 +38,7 @@ const RelatedPost = () => {
           </Link>
         </div>
 
-        <Author></Author>
+        {/* <Author></Author> */}
       </div>
     </div>
   );

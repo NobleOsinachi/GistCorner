@@ -1,4 +1,3 @@
-"use client";
 import Slide from "./Slide";
 // import Swiper from "swiper";
 import { Swiper } from "swiper/react";
@@ -17,9 +16,7 @@ import PopularPost from "./PopularPost";
 const Section3 = () => {
   return (
     <section className="container mx-auto md:px-20 py-60">
-      <h1 className="text-center text-4xl font-bold py-12">Most Popular </h1>
-
-      {/*  */}
+      <h1 className="text-center text-4xl font-bold py-1">Most Popular </h1>
 
       <Swiper
         spaceBetween={30}
