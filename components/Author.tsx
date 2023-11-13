@@ -8,10 +8,7 @@ interface AuthorProps {
 }
 
 const Author = ({ data }: AuthorProps) => {
-  // Check if data is defined before destructuring
-  if (!data) {
-    return null; // or handle it in another way based on your requirements
-  }
+  if (!data) return null;
 
   const { name, img, designation } = data;
 

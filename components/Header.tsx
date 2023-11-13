@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { ImFacebook, ImYoutube, ImTwitter, ImInstagram } from "react-icons/im";
 import SocialMedia from "./SocialMedia";
 
 const Header = () => {
