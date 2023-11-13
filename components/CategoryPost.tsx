@@ -2,14 +2,19 @@ import Image from "next/image";
 import Link from "next/link";
 import Author from "./Author";
 import Tag from "./Tag";
-
-const CategoryPost = () => {
+import { Post } from "@/models/Post";
+interface CategoryProps {
+  data: Post;
+}
+const CategoryPost = ({ data }: CategoryProps) => {
+  const { id, title, subtitle, category, img, description, published, author } =
+    data;
   return (
     <div className="flex gap-5">
       <div className="image flex flex-col justify-start">
         <Link href={"#"}>
           <Image
-            src="/images/img1.png"
+            src={img || "/images/img1.png"}
             alt={""}
             className="rounded"
             width={"300"}
@@ -24,25 +29,23 @@ const CategoryPost = () => {
             className="text-orange-600 hover:text-orange-800 flex"
             href={"#"}
           >
-            Business, Travel
-            {/* <Tag>Business</Tag>            <Tag>Travel</Tag> */}
+            {category || "Unknown"}
           </Link>
           {" — "}
           <Link className="text-gray-800 hover:text-gray-600" href={"#"}>
-            July 30, 2023
-            {/* ┬ ↗ */}
+            {published || "Unknown"}
           </Link>
         </div>
         <div className="title">
           <Link
             href={""}
-            className="text-xl font-bold text-gray-800  hover:text-gray-600 py-3"
+            className="md:text-xl font-bold text-gray-800 hover:text-gray-600 py-3"
           >
-            Navigating Global Markets: Business Insights and Travel Adventures
+            {title || "Unknown"}
           </Link>
         </div>
 
-        {/* <Author></Author> */}
+        {author ? <Author data={author}></Author> : <></>}
       </div>
     </div>
   );

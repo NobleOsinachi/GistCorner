@@ -1,4 +1,4 @@
-import { Post } from "@/app/api/data/route";
+import { Post } from "@/models/Post";
 
 export async function getPosts() {
   try {

@@ -1,52 +1,54 @@
 import Image from "next/image";
 import Link from "next/link";
 import Author from "./Author";
+import { Post } from "@/models/Post";
 
-const Slide = () => {
+interface SlideProps {
+  data: Post;
+}
+const Slide = ({ data }: SlideProps) => {
   // const res = await fetch("/api/category");
   // const category: Array<string> = await res.json();
+  const { title, subtitle, category, img, description, published, author } =
+    data;
 
   return (
     <div className="grid md:grid-cols-2 gap-2">
       <div className="image px-5">
         <Link href={"#"}>
-          <Image src="/images/img1.png" alt={""} width={"600"} height={"600"} />
+          <Image
+            src={img || "/images/img1.png"}
+            alt={""}
+            width={"600"}
+            height={"600"}
+          />
         </Link>
       </div>
       <div className="info flex flex-col justify-center">
         <div className="category">
           <Link className="text-orange-600 hover:text-orange-800" href={"#"}>
-            Business, Travel
+            {category || "Uncategorized"}
           </Link>
           {" — "}
           <Link className="text-gray-800 hover:text-gray-600" href={"#"}>
-            April 28, 2023
+            {published || "Jan 1, 1970"}
             {/* ┬ ↗ */}
           </Link>
         </div>
         <div className="title">
           <Link
             href={""}
-            className="text-3xl md:text-6xl font-bold text-gray-800  hover:text-gray-600 py-3"
+            className="text-3xl md:text-6xl font-bold text-gray-800 hover:text-gray-600 py-3"
           >
-            Preserving Our Natural Heritage
+            {title || "Unknown Title"}
           </Link>
         </div>
         <p className="description text-gray-500 py-3">
-          As we marvel at the wonders of nature, it becomes our responsibility
-          to protect and preserve it. Conservation efforts, sustainable
-          practices, and a collective commitment to environmental stewardship
-          are essential. By safeguarding our natural heritage, we ensure that
-          future generations can continue to find inspiration and solace in the
-          untouched beauty of the world around us. In conclusion, the beauty of
-          nature is a timeless source of inspiration and tranquility. It reminds
-          us to slow down, appreciate the world we live in, and strive to be
-          responsible custodians of the environment. So, the next time you find
-          yourself amidst nature&apos;s grandeur, take a moment to soak it
-          in—the beauty that surrounds us is a gift that keeps on giving.
+          {description ||
+            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, voluptas cum? Cupiditate! "}
         </p>
 
-        {/* <Author></Author> */}
+        {author ? <Author data={author}></Author> : <></>}
       </div>
     </div>
   );

@@ -1,11 +1,10 @@
-//
 import Image from "next/image";
 import Link from "next/link";
 import Author from "./Author";
+import { Post } from "@/models/Post";
 
-import { Post as PostData } from "@/app/api/data/route";
 interface PostProps {
-  data: PostData;
+  data: Post;
 }
 
 const Post = ({ data }: PostProps) => {

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { Author as AuthorData } from "@/app/api/data/route";
+import { Author as AuthorData } from "@/models/Author";
 
 interface AuthorProps {
   data: AuthorData;

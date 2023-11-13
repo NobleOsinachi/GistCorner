@@ -1,21 +1,5 @@
-import { shuffleArray } from "@/utils/shuffleArray";
+import { Post } from "@/models/Post";
 import { NextRequest, NextResponse } from "next/server";
-
-export interface Author {
-  name: string;
-  img: string;
-  designation: string;
-}
-export interface Post {
-  id: number;
-  title: string;
-  subtitle: string;
-  category: string;
-  img: string;
-  description: string;
-  published: string;
-  author: Author;
-}
 
 export interface Data {
   Trending: Post[];

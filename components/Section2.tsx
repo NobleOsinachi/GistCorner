@@ -3,12 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import Author from "./Author";
 import Post from "./Post";
-import { Post as PostData } from "@/app/api/data/route";
+import { Post as PostData } from "@/models/Post";
 
 import { useEffect, useState } from "react";
-import { getPosts } from "@/lib/getPosts";
+
 import Spinner from "./Spinner";
 import Error from "./Error";
+import { getPosts } from "@/controllers/PostController";
 
 const Section2 = () => {
   const [posts, setPosts] = useState<PostData[]>([]);
