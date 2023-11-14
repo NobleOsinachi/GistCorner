@@ -1,4 +1,4 @@
-CD "C:\Users\Noble\source\repos\blog-nextjs"
+CD "C:\Users\Noble\source\repos\GistCorner"
 
 
 npm run dev

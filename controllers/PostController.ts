@@ -11,13 +11,14 @@ export async function getPosts() {
   }
 }
 
-export async function getPostById(id: number = 1) {
+export async function getPostById(id: number) {
   try {
     const data = await fetch(`/api/posts/${id}`);
     const post: Post = await data.json();
     return post;
   } catch (error) {
     console.error(`Error fetching post with ID ${id}:`, error);
+
     return null;
   }
 }

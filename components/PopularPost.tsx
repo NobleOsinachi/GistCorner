@@ -12,7 +12,7 @@ const PopularPost = ({ data }: PopularPostProps) => {
   return (
     <div className="grid">
       <div className="images">
-        <Link href={"#"}>
+        <Link href={`/posts/${id}`}>
           <Image
             src={img || "/images/img1.png"}
             alt={id.toString()}
@@ -23,11 +23,17 @@ const PopularPost = ({ data }: PopularPostProps) => {
       </div>
       <div className="info flex flex-col justify-center py-4">
         <div className="category">
-          <Link className="text-orange-600 hover:text-orange-800" href={"#"}>
+          <Link
+            className="text-orange-600 hover:text-orange-800"
+            href={`/posts/${id}`}
+          >
             {category || "Uncategorized"}
           </Link>
           {" — "}
-          <Link className="text-gray-800 hover:text-gray-600" href={"#"}>
+          <Link
+            className="text-gray-800 hover:text-gray-600"
+            href={`/posts/${id}`}
+          >
             {published || "Unknown"}
             {/* ┬ ↗ */}
           </Link>
@@ -35,7 +41,7 @@ const PopularPost = ({ data }: PopularPostProps) => {
 
         <div className="title">
           <Link
-            href=""
+            href="#"
             className="text-3xl md:text-4xl font-bold text-gray-800 hover:text-gray-600 py-3"
           >
             {title || "Unknown"}

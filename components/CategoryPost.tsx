@@ -3,19 +3,19 @@ import Link from "next/link";
 import Author from "./Author";
 import Tag from "./Tag";
 import { Post } from "@/models/Post";
-interface CategoryProps {
+interface CategoryPostProps {
   data: Post;
 }
-const CategoryPost = ({ data }: CategoryProps) => {
+const CategoryPost = ({ data }: CategoryPostProps) => {
   const { id, title, subtitle, category, img, description, published, author } =
     data;
   return (
     <div className="flex gap-5">
       <div className="image flex flex-col justify-start">
-        <Link href={"#"}>
+        <Link href={`/posts/${id}`}>
           <Image
             src={img || "/images/img1.png"}
-            alt={""}
+            alt={id.toString()}
             className="rounded"
             width={"300"}
             height={"250"}
@@ -27,18 +27,21 @@ const CategoryPost = ({ data }: CategoryProps) => {
         <div className="category flex">
           <Link
             className="text-orange-600 hover:text-orange-800 flex"
-            href={"#"}
+            href={`/posts/${id}`}
           >
             {category || "Unknown"}
           </Link>
           {" — "}
-          <Link className="text-gray-800 hover:text-gray-600" href={"#"}>
+          <Link
+            className="text-gray-800 hover:text-gray-600"
+            href={`/posts/${id}`}
+          >
             {published || "Unknown"}
           </Link>
         </div>
         <div className="title">
           <Link
-            href={""}
+            href={`/posts/${id}`}
             className="md:text-xl font-bold text-gray-800 hover:text-gray-600 py-3"
           >
             {title || "Unknown"}

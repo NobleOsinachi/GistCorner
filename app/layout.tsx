@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body data-class={""}>
+      <body data-class={"body-wrapper"}>
         <header>
           <Header />
         </header>

@@ -2,7 +2,7 @@ import Author from "@/components/Author";
 
 interface PostByIdProps {
   params: { id: string };
-  searchParams: [{ name: "" }];
+  searchParams: [{ name: "#" }];
 }
 
 const PostById = ({ params, searchParams }: PostByIdProps) => {

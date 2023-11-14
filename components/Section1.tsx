@@ -65,7 +65,7 @@ const Section1 = () => {
             spaceBetween={30}
             centeredSlides={true}
             autoplay={{
-              delay: 2000,
+              delay: 20000,
               disableOnInteraction: false,
             }}
             pagination={{

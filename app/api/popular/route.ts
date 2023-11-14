@@ -7,8 +7,14 @@ export const GET = async (req: NextRequest) => {
     const { Popular } = posts;
 
     return Popular
-      ? NextResponse.json(Popular, { status: 200 })
-      : NextResponse.json({ error: "Data not found" }, { status: 404 });
+      ? NextResponse.json(Popular, {
+          status: 200,
+          headers: { "Content-Type": "application/json" },
+        })
+      : NextResponse.json(
+          { error: "Data not found" },
+          { status: 404, headers: { "Content-Type": "application/json" } }
+        );
   } catch (error) {
     console.error("Error fetching data:", error);
     return NextResponse.error();

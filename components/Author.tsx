@@ -18,12 +18,12 @@ const Author = ({ data }: AuthorProps) => {
         src={img || "/images/authors/nobleosinachi.png"}
         width="60"
         height="60"
-        alt=""
+        alt="#"
         className="rounded-full"
       />
       <div className="flex flex-col justify-center px-4">
         <Link
-          href={"/"}
+          href={"#"}
           className="text-md font-bold text-gray-800 hover:text-gray-600"
         >
           {name || "Unknown"}

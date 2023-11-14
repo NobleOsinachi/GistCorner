@@ -56,7 +56,6 @@ const Section3 = () => {
 
       <Swiper
         spaceBetween={30}
-        // centeredSlides={true}
         autoplay={{
           delay: 2000,
           disableOnInteraction: false,
@@ -69,8 +68,6 @@ const Section3 = () => {
         className="mySwiper"
         slidesPerView={2}
         loop={true}
-        // onSlideChange={() => console.log("changed")}
-        // onSwiper={(swiper) => console.log(swiper)}
       >
         {posts.map((post, index) => (
           <SwiperSlide key={index}>

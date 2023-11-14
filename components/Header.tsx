@@ -14,7 +14,7 @@ const Header = () => {
             />
           </div>
           <div className="shrink w-80 sm:order-2">
-            <Link className="font-bold uppercase text-3xl" href={"/"}>
+            <Link className="font-bold uppercase text-3xl" href={`#`}>
               Gist Corner
             </Link>
           </div>

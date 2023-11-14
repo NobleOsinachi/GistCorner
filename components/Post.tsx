@@ -13,7 +13,7 @@ const Post = ({ data }: PostProps) => {
   return (
     <div className="item">
       <div className="images">
-        <Link href={"#"}>
+        <Link href={`/posts/${id}`}>
           <Image
             src={img || "/images/img1.png"}
             alt={img}
@@ -25,18 +25,24 @@ const Post = ({ data }: PostProps) => {
       </div>
       <div className="info flex flex-col justify-center py-4">
         <div className="category">
-          <Link className="text-orange-600 hover:text-orange-800" href={"#"}>
+          <Link
+            className="text-orange-600 hover:text-orange-800"
+            href={`/posts/${id}`}
+          >
             {category || "Uncategorized"}
           </Link>
           {" — "}
-          <Link className="text-gray-800 hover:text-gray-600" href={"#"}>
+          <Link
+            className="text-gray-800 hover:text-gray-600"
+            href={`/posts/${id}`}
+          >
             {published || "Jan 1, 1970"}
             {/* ┬ ↗ */}
           </Link>
         </div>
         <div className="title">
           <Link
-            href={""}
+            href={`/posts/${id}`}
             className="text-xl font-bold text-gray-800 hover:text-gray-600 py-3"
           >
             {title || "Title"}
