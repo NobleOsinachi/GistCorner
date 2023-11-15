@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "npm run prettier --write && next dev",
     "build": "next build",
     "prod": "npm run build && npm run start",
     "start": "next start",
+    "prettier": "prettier --write .",
     "lint": "next lint"
   },
   "dependencies": {
@@ -27,5 +28,8 @@
     "swiper": "^11.0.3",
     "tailwindcss": "3.3.2",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0"
   }
 }

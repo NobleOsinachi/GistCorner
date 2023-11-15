@@ -13,7 +13,9 @@ const Newsletter = () => {
           />
         </div>
 
-        <button className="rounded-full bg-orange-400 px-20 py-3 text-gray-50 text-xl ">Subscribe</button>
+        <button className="rounded-full bg-orange-400 px-20 py-3 text-gray-50 text-xl ">
+          Subscribe
+        </button>
       </div>
     </section>
   );

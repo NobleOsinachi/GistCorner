@@ -13,7 +13,7 @@ export const GET = async (req: NextRequest) => {
         })
       : NextResponse.json(
           { error: "Data not found" },
-          { status: 404, headers: { "Content-Type": "application/json" } }
+          { status: 404, headers: { "Content-Type": "application/json" } },
         );
   } catch (error) {
     console.error("Error fetching data:", error);

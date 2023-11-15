@@ -20,7 +20,7 @@ export const GET = async (req: NextRequest, { params }: PostIdProps) => {
         })
       : NextResponse.json(
           { error: "Post not found" },
-          { status: 404, headers: { "Content-Type": "application/json" } }
+          { status: 404, headers: { "Content-Type": "application/json" } },
         );
   } catch (error) {
     console.error("Error fetching data:", error);

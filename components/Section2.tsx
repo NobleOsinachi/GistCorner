@@ -12,8 +12,6 @@ import Error from "./Error";
 import { getPosts } from "@/controllers/PostController";
 
 const Section2 = () => {
-
-  
   const [posts, setPosts] = useState<PostData[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [isError, setIsError] = useState<string | null | boolean>(null);

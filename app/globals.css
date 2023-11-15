@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .loader {
   @apply border-gray-200 rounded-full border-4 ease-linear h-10 w-10;
   border-top-color: #363ce0;
